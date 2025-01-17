@@ -5,7 +5,7 @@ Simple fetch wrapper for rapid backends
 ## Example
 
 ```js
-import { Quack } from "../../src";
+import { Quack } from "@themodernmachine/quack";
 
 const app = new Quack()
   .addRoute({ pathname: "/text", method: "GET" }, (request) =>
